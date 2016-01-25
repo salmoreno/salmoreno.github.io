@@ -2,7 +2,331 @@
 <html>
   <head>
     <title>Sal Moreno</title>
-    <link type="text/css" rel="stylesheet" href="mysite.css~"/>
+ <!--   <link type="text/css" rel="stylesheet" href="mysite.css~"/>-->
+ 
+ <!--start of css-->
+ <style type="text/css">
+ body
+{
+    background-color:    #f2f2f2;
+    color:               white;
+ /*   background-image:    
+    background-size:     cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+   */ 
+  //  background-position: center;
+  //  background-repeat:   no-repeat;
+    overflow:            scroll;
+}
+
+.wrap
+{
+   margin:0 auto;
+   padding:0;
+   width:100%;
+   text-align:center;
+   
+}
+.pagehead
+{
+    text-align:center;
+    font-family:Arial;
+    color:black;
+}
+
+#navmenu
+{
+   list-style-type:none;
+   margin:0;padding:0;
+   text-align:left;
+   color:black;
+   font-size:20px;
+   position:fixed;
+   float:right;
+}
+li a
+{
+   display:block;
+   width:100px;
+   text-align:center;
+   background-color:indigo;
+   text-decoration:none;
+   padding: 8px 0 8px 0;
+}
+li a:hover
+{
+   background-color: #555;
+   color:white;
+}
+.active
+{
+   background-color:#4caf50;
+   color:blue;
+}
+
+#navbar
+{
+    width:400px; 
+    height:40px;
+    word-spacing:30px;    
+    margin-left:auto;margin-right:auto;
+    font-size:20px;
+    font-family:Arial;
+}
+
+#navbar a
+{
+    text-decoration:none;
+    color:#7e7e7e;
+}
+
+#homeabout
+{
+   display:none;
+   content:url("aboutpic.jpg"); 
+   align:center;
+   width:315px;height:195px;
+   margin-top:-220px;
+}
+#homeedu
+{
+   display:none;
+   content:url("edupic.jpg"); 
+   align:center;
+   width:315px;height:195px;
+   margin-top:-220px;
+}
+
+#about
+{
+    background-color:#bae4f0;
+    margin-top: 100px;
+    padding-top:50px;
+}
+#about h1
+{
+    color:#151515;
+}
+h4 
+{
+   text-align:center;
+   color:#3f3f3f;
+}
+#aboutinfo 
+{
+    text-align:left;
+    margin-left:150px;margin-top:-200px;  
+    font-family:"Lucida Console";
+    color:#3f3f3f;
+}
+h4 hr 
+{
+    width:800px;
+    height=5px;
+}
+div.aboutimg 
+{
+    margin-left:1000px;
+    margin-top:-200px;
+    content:url("me.png");
+    padding-bottom:300px;
+
+}
+
+#aboutdescrip
+{
+   text-align:center;
+   margin-top:100px;
+   font-family:"Lucida Console";
+   color:#3f3f3f;
+
+}
+
+#education
+{
+    background-color:#A77AAB;
+    padding-top:50px;
+
+}
+#education h2
+{
+    text-align:left;
+    margin-left:250px;
+    color:#2a2a2a;
+}
+#education h3
+{
+    text-align:left;
+    margin-left:250px;
+    color:#2a2a2a;
+}
+#date
+{
+    text-align:right;
+    margin-right:250px;
+    margin-top:-150px;
+    font-size:20px;
+    color:#2a2a2a;
+}
+#relcourse
+{
+   font-size:20px;
+   color:#2a2a2a; 
+   margin-left:-600px;
+}
+#relcourses
+{
+    text-align:left;
+    font-size:20px;
+    color:#2a2a2a;
+    margin-left:300px;
+}
+
+#schoolimg
+{
+    content:url("http://cdn.instructables.com/FHF/SI0N/I6MC309L/FHFSI0NI6MC309L.MEDIUM.jpg");
+    width:110px;height:150px;
+    margin-top:-125px;
+    margin-left:-1000px;
+
+}
+
+#work
+{
+    background-color:#5F9EA0;
+    padding-top:50px;
+}
+#work h2
+{
+    text-align:left;
+    margin-left:250px;
+    color:#2a2a2a;
+}
+#work h3
+{
+    text-align:left;
+    margin-left:250px;
+    color:#2a2a2a;
+}
+#date2
+{
+    text-align:right;
+    margin-top:-85px; margin-right:200px;
+    color:#2a2a2a;
+    font-size:20px;
+}
+#dispdescrip
+{
+   text-align:left;
+   margin-left:250px;
+   font-size:20px;
+   color:#2a2a2a;
+}
+#workimg
+{
+    content:url("http://blink.ucsd.edu/_images/import/3/3607ar.jpg");
+    width:110px;height:110px;
+    margin-left:-1000px;
+    margin-top:-200px
+}
+#cso h2
+{
+    margin-top:150px;
+}
+#date3
+{
+   text-align:right;
+   margin-top:-85px;margin-right:200px;
+   color:#2a2a2a;
+   font-size:20px;
+}
+#csodescrip
+{
+   text-align:left;
+   margin-left:250px;
+   font-size:20px;
+   color:#2a2a2a;
+}
+
+#mad h2
+{
+    margin-top:80px;
+}
+#date4
+{
+   text-align:right;
+   margin-top:-95px;margin-right:200px;
+   color:#2a2a2a;
+   font-size:20px;
+}
+#madimg
+{
+  content:url("http://images.maxpreps.com.edgesuite.net/Mascot/AAAAAAAAAAAAAAAAAAAAAA/cNrx_qK-WEmmC5lihR9qHQ/1,210,89/1257278956_madison_warhawks.gif");
+    width:120px;height:110px;
+    margin-left:-1000px;
+    margin-top:-80px  
+}
+#maddescrip
+{
+   text-align:left;
+   margin-left:250px;
+   font-size:20px;
+   color:#2a2a2a;
+   margin-top:-25px;
+}
+
+
+#projects
+{
+    background-color:#26466d;
+    padding-bottom:400px;
+    padding-top:50px;
+}
+#projects h4
+{
+    color:#2a2a2a;
+}
+
+#pt
+{
+   background-color:#26466d;
+   margin-top:-300px;
+   border-spacing:30px;
+}
+#projimg1
+{
+   content:url("wut.jpg"); 
+   width:450px;height:300px;
+   margin-left:-50px;
+   margin-top:20px;
+}
+#projimg2
+{
+   content:url("krabby.jpg");
+   width:450px;height:300px;
+   margin-right:-20px;
+   margin-top:20px;
+}
+#teleproj
+{
+   content:url("telecomm.jpg");
+   width:350px;height:500px;
+   margin-top:35px;
+}
+#adescr
+{
+   text-align:left;
+   margin-left:145px;
+}
+#kadescr
+{
+   text-align:left;
+   margin-left:600px;margin-top:-50px;
+}
+ </style>
+ <!--end of css-->
     <script src="site.js"></script>
         
     
